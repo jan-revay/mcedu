@@ -3,6 +3,7 @@ wall = STONE
 air = AIR
 base = player.position()
 
+# Wrld x, y, z coordinate
 def wx(x): return base.getValue(Axis.X) + x
 def wy(y): return base.getValue(Axis.Y) + y
 def wz(z): return base.getValue(Axis.Z) + z
